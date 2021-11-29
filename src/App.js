@@ -77,7 +77,6 @@ class App extends Component {
     console.log("huj")
   }
   onPictureSubmit = () => {
-    console.log("yoyo")
     this.setState({ imageUrl: this.state.input });
     app.models
       .predict(
