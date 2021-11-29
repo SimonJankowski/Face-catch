@@ -8,7 +8,7 @@ const particlesOpt={
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
@@ -28,7 +28,7 @@ const particlesOpt={
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
           },
@@ -52,7 +52,7 @@ const particlesOpt={
             enable: true,
             outMode: "",
             random: false,
-            speed: 0.04,
+            speed: 0.08,
             straight: false,
           },
           number: {
