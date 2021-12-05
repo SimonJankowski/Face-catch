@@ -27,9 +27,7 @@ const initialState = {
 
 }
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
+state = {
       input: '',
       imageUrl: "",
       box: {},
@@ -42,7 +40,6 @@ class App extends Component {
         entries: 0,
         joined: "",
       }
-    }
   }
 
   loadUser = (data) => {
